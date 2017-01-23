@@ -1,2 +1,3 @@
-build:
-	corebuild -pkg opium.unix hello.native
+build_docker:
+	docker build -t echoserver .
+
